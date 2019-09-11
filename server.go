@@ -22,7 +22,7 @@ func handleTime(res http.ResponseWriter, req *http.Request) {
 	// Sending time
 	res.Write(jsonTime);
 }
-// useless comment
+
 func main() {
 	// Request handles
 	http.HandleFunc("/", handleRoot);
