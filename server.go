@@ -30,5 +30,5 @@ func main() {
 	// Deffered call
 	defer http.ListenAndServe(":8795", nil);
 	// Server status message
-	fmt.Println("Server is listening on 9000 port...");
+	fmt.Println("Server is listening on 8795 port...");
 }
