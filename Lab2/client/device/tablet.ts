@@ -9,7 +9,7 @@ export default class Tablet extends Device {
     requests.getData(count);
   }
   private sendData = () => {
-    requests.sendData(this.battery, this.currentVideo);
+    requests.sendData(this.battery, this.currentVideo, new Date());
   }
   public startCycle() {
     const intervalVideo = setInterval(() => {
