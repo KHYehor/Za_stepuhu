@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"net/http"
 	"time"
+	"log"
 )
 
 func handleRoot(res http.ResponseWriter, req *http.Request) {
